@@ -12,8 +12,8 @@ const Parser = require('./parser.js');
 
 // Use MongoDB module
 const MongoClient = require('mongodb').MongoClient;
-const url = "mongodb://localhost:27017/";
-const dbname = "authdatabase";
+const url = "mongodb://herokuusr123:herokupassword123@ds149754.mlab.com:49754/";
+const dbname = "heroku_0z4g5nxg";
 
 // Front End directory
 app.use(express.static(__dirname + '/client'));
