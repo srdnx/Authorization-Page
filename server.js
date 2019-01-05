@@ -12,8 +12,11 @@ const Parser = require('./parser.js');
 
 // Use MongoDB module
 const MongoClient = require('mongodb').MongoClient;
-const url = 'mongodb://heroku_8t4rvjg7:64gmgkeuteikhosg7emvq0cald@ds149744.mlab.com:49744/heroku_8t4rvjg7';
-const dbname = 'heroku_8t4rvjg7';
+const url = process.env.MONGODB_URI;
+const dbname = process.env.MONGO_DB;
+
+// Get PORT from global variable
+const port = process.env.PORT;
 
 // Front End directory
 app.use(express.static(__dirname + '/client'));
@@ -30,8 +33,8 @@ MongoClient.connect(url, function(err, db) {
 });
 
 // Start Server
-app.listen(8888, () => {
-    console.log("Server started at port 8888!");
+app.listen(port, () => {
+    console.log("Server started!");
 });
 
 // Login Request
