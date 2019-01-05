@@ -12,7 +12,7 @@ const Parser = require('./parser.js');
 
 // Use MongoDB module
 const MongoClient = require('mongodb').MongoClient;
-const url = 'mongodb://heroku_8t4rvjg7:64gmgkeuteikhosg7emvq0cald@ds149744.mlab.com:49744/';
+const url = 'mongodb://heroku_8t4rvjg7:64gmgkeuteikhosg7emvq0cald@ds149744.mlab.com:49744/heroku_8t4rvjg7';
 const dbname = 'heroku_8t4rvjg7';
 
 // Front End directory
