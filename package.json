@@ -1,0 +1,15 @@
+{
+  "name": "authorization_page",
+  "version": "1.0.0",
+  "description": "Authorization and Registration Example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+  },
+  "author": "Vitalii Tyzun",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10"
+  }
+}

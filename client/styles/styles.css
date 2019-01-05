@@ -1,0 +1,64 @@
+body {
+  padding-top: 50px;
+  background-color: #E8F8F5;
+}
+
+.panel-login {
+	border-color: #ccc;
+}
+
+.panel-login .panel-heading a {
+	text-decoration: none;
+	font-weight: bold;
+  font-size: 18px;
+}
+
+.panel-login .panel-heading a.active {
+  text-decoration: underline;
+	color: #27AE60;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.panel-login .panel-heading hr {
+	margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.panel-login input {
+	height: 40px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+}
+
+.btn-login {
+	background-color: #3498DB;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #2874A6;
+}
+
+.btn-register {
+	background-color: #28B463;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #239B56;
+}
+
+.message {
+  text-align: center;
+}
