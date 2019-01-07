@@ -2,7 +2,7 @@
 
 При написании были использованы следующие технологии
 
-Front-End: bootstrap, jQuery
+Front-End: Bootstrap, jQuery
 
 Back-End: Node.js, MongoDB
 

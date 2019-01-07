@@ -1,7 +1,7 @@
 module.exports = {
 	// Login and Password parser
 	parseLoginPassword: function (str, min, max) {
-			if(str.match(/^[a-zA-Z0-9]+$/) && str.length >= min && str.length <= max) {
+		if(str.match(/^[a-zA-Z0-9]+$/) && str.length >= min && str.length <= max) {
 			return true;
 		}
 		else
